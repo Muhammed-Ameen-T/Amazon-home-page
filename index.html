@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="icon" href="media/Screenshot 2024-07-31 214744.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #d1d3d3;">
+    <header>
+        <div class="navbar">
+            <div style="margin-top: -16px;margin-left: -10px;" class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i style="font-size: 1.5rem;" class="fa-solid fa-location-dot "></i>
+                    <p class="add-scnd">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select name="" id="" class="search-select">
+                    <option value="">All</option>
+                </select>               
+                <input type="text" placeholder="Search Amazon.in" class="search-input">
+                <div style="align-content: center;padding-left: 10px;" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div class="nav-lang border">
+                <img style="width: 1.2rem;" src="media/Flag.png" alt="">
+                <select style="background: #0f1111;color: white;font-weight: bold;font-size: 1rem;border: none;width: 47px;" name="" id="" class="lang-select">
+                    <option value="">EN</option>
+                    <option value="">HINDI</option>
+                </select>               
+            </div>
+            <div class="nav-signin border">
+                <p style="font-size: small;"><span>Hlo, sign in</span></p>
+                <p style="font-weight: bold;">Account & Lists</p>
+            </div>
+            <div class="nav-signin border">
+                <p style="font-size: small;"><span>Returns</span></p>
+                <p style="font-weight: bold;">& Orders</p>
+            </div>
+            <div style="color: white;font-size: 2rem;" class="nav-cart border">
+                <i style="font-size: 28px;margin-top: 6px;" class="fa-solid fa-cart-shopping"></i>
+                <p style="font-size: medium;margin-top: 1rem;font-weight: 600;">Cart</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p class="border">Keep Shopping for</p> 
+                <p class="border">Best Sellers</p> 
+                <p class="border">Amazon miniTV</p> 
+                <p class="border">Sell</p> 
+                <p class="border">Gift Cards</p> 
+                <p class="border">AmazonBasics</p> 
+                <p class="border">Buy Again</p>
+                <p class="border">Browsing History</p> 
+                <p class="border">Books</p> 
+                <p class="border">Health, Household & Personal Care</p> 
+                <p class="border">Gift Ideas</p>
+            </div>
+            <div style="align-items: end;margin-left: 10rem;" class="panel-deals border">
+                
+                <img height="35px" src="https://m.media-amazon.com/images/G/31/Events/img24/AugART24/GW/AugART24_SWM_ComingSoon_V2._CB567612751_.jpg" alt="">
+            </div>
+        </div>
+    </header>
+        
+    <div class="slider">   
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <img src="media/swipe2.jpg" style="width:100%;height: 300px;">     
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="media/swipe3.jpg" style="width:100%;height: 300px;">
+        </div>
+        
+        <div class="mySlides fade"> 
+          <img src="media/swipe1.jpg" style="width:100%;height: 300px;">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+    </div>
+    <section class="store-body">
+        <div class="shop-section">
+            <div class="box1 box">
+                <h3>Great Freedom sale | Coming Soon</h3>
+                <img style="height: 270px; width: 300px;margin-top: 10px;margin-bottom: 13px;" src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/Aug24/AugART24_GW_PC_CC_1x._SY304_CB567670907_.jpg" alt="">
+                <p style="color: #007185;font-size: smaller;">Join prime</p>
+            </div>
+            <div class="box2 box">
+                <h3>Pickup Where you left off</h3>
+                <img style="height: 270px; width: 300px;margin-top: 30px;margin-bottom: 13px;" src="media/box2.jpg" alt="">
+                <p style="color: #007185;font-size: smaller;">See more</p>
+            </div>
+            <div class="box3 box">
+                <h3>Keep shopping for</h3>
+                <img style="height: 270px; width: 300px;margin-top: 30px;margin-bottom: 13px;" src="media/box4.png" alt="">
+                <p style="color: #007185;font-size: smaller;">View you browsing history</p>
+            </div>
+            <div class="box4 box">
+                <h3>Catogory to explore</h3>
+                <img style="height: 270px; width: 300px;margin-top: 30px;margin-bottom: 13px;" src="media/box3.jpg" alt="">
+                <p style="color: #007185;font-size: smaller;">Explore more</p>
+            </div>    
+        </div>
+    </section>
+    <footer>
+        <div style="margin-left: 210px;" class="prime">
+            <img src="media/panjayath.jpg" alt="">
+        </div>
+    </footer>
+
+        
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+       
+</body>
+</html>
